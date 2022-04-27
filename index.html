@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootsrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootsrap/main.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pizza Restaurant</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ===============================/HEADER======================== -->
+<!-- =====================Site Hero==================== -->
+  <div class="container">
+    <div class="site-hero row">
+      <h2 class="text-center text-light">Pitsa buyurtma xizmati</h2>
+      <div class="col-8 p-5">
+      <form action="https://echo.htmlacademy.ru" method="post" >
+        
+          <p class="site-hero__typeof_bread_text text-primary "><strong>Noni Qanday bolsin?</strong></p>
+          <select name="dough_pizza" id="site-hero__select" class="js-select_bread"></select>
+          <div class="size-pizza row mt-5">
+
+            <div class="shadow-sm">
+              <h2 class="text-primary">Kattaligi ?</h2>
+              <div id="sizeWrapper">
+
+              </div>
+              <!--  =======KATTALIGI======= -->
+            </div>
+            <div class="vegtables">
+              <ul class="vagetable__list">
+                <li class="vagetable__item_1"></li>
+                <li class="vagetable__item_2"></li>
+                <li class="vagetable__item_3"></li>
+                <li class="vagetable__item_4"></li>
+                <li class="vagetable__item_5"></li>
+                <li class="vagetable__item_6"></li>
+              </ul>
+            </div>
+
+            <div class="js-ing-wrapper">
+              <p class="add-ing-title">Ustiga nima solaylik?</p>
+              <ul class="item-wrap d-flex js-ing-list"></ul>
+            </div>
+  
+            <div class="js-additioanl-box">
+              <p class="additioanl-title">Qo'shimchalar</p>
+              <ul class="js-additioanl-list"></ul>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <div class="col-4 border-start-2 border-light">
+        <div>
+          <span class="text-light">Non:</span>
+          <p id="text_bread" class="text-light d-inline-block"></p>
+        </div>
+        <div>
+          <p id="sizePizza"></p>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+
+  
+
+
+  <script src="./bootsrap/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
